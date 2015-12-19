@@ -1,0 +1,9 @@
+applications:
+- path: target/cdapp-0.0.1.jar
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: crapTest
+  host: crapTest
+  disk_quota: 1024M
+  buildpack: java_buildpack
